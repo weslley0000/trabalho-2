@@ -20,8 +20,15 @@
 .container_imagem{
     padding:1 em;
 }
-.lista-menu {
+.lista-menu{
     display:none;
     position:absolute;
     top:100%
+}
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
+.lista-menu{
+    display: none;
+    
 }
